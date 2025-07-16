@@ -13,7 +13,7 @@ typedef struct PROCESS {
     float time_remaining; // Amount of runtime left for job
     float restart_time; // Used for calculating runtimes
     unsigned int priority; // Priority value -- lower is more important
-    float last_run; // When was the job last run
+    float last_run; // When was tahe job last run
 } PROCESS;
 
 /**
